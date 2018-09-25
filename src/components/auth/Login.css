@@ -1,0 +1,9 @@
+.entry-bg {
+    background-image: url('/resources/images/login-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}

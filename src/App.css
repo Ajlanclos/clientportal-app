@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
+
+body {
+  font-family: 'Roboto', arial;
+  color: rgba(0, 0, 0, .6);
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+input,
+.btn {
+  border-radius: 0 !important;
+}
+
+/* BOOTSTRAP OVERRIDES */
+.jumbotron {
+  padding: 1rem 2rem !important;
+  border-radius: 0;
+}
+
+.alert {
+  border-radius: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0;
+}
+
+/* CUSTOM CSS */
+.content-bg {
+  background: #eeeeee;
+  padding: 1em;
+}
+
+.bg-c-dk {
+  background: #06121a;
+  color: #fff;
+}
+
+.bg-c-md {
+  background: #0f1f29;
+  color: #fff;
+}
+
+.bg-c-md-a {
+  background: rgba(15, 31, 41, 0.8);
+  color: #fff;
+}
+
+.bg-c-lt {
+  background: #1c2e3a;
+  color: #fff;
+}
+
+.my-c-100 {
+  margin: 15rem 0;
+}
+
+.profile-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+/*SECURITY SETTING VERTICAL LINE*/
+.vhr-dark {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+.vhr-light {
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  height: 100%;
+  padding-right: 1rem;
+  margin-right: 1rem;
+}
+/* PROFILE IMAGE UPLOADER*/
+.imageUpload {
+  background-color: 'red';
+  color: 'white';
+  padding: 10;
+  border-radius: 4;
+  cursor: 'pointer';
+}
+/* ANIMATIONS */
