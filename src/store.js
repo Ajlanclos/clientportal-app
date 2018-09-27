@@ -11,12 +11,12 @@ import settingsReducer from './redux/reducers/SettingsReducer';
 
 // Firebase config
 const firebaseConfig = {
-    apiKey: "AIzaSyClFta2yeISc-s-L72rmu-xGJHtBUBpuBc",
-    authDomain: "react-c-app.firebaseapp.com",
-    databaseURL: "https://react-c-app.firebaseio.com",
-    projectId: "react-c-app",
-    storageBucket: "react-c-app.appspot.com",
-    messagingSenderId: "528225215360"
+    apiKey: " ",
+    authDomain: " ",
+    databaseURL: " ",
+    projectId: " ",
+    storageBucket: " ",
+    messagingSenderId: " "
 };
 
 // React-Redux-Firebase config
